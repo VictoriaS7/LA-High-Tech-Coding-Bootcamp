@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1><strong>Register</strong></h1>
+</head>
+<body>
+    <form>
+        First Name: <input type="text" name="firstname" placeholder="John" required> Last Name: <input type="text" name="lastname" placeholder="Smith" required><br>
+        Male <input type="radio" name="gender" value="male"> Female <input type="radio" name="gender" value="female"> Other <input type="radio" name="gender" value="other"><br>
+        Email: <input type="email" name="email" placeholder="your email" required> Password: <input type="password" name"password" minlength="5" maxlength="10" required><br>
+        Birthday: 
+        <select name="Month">
+           <option value="month">Month</option>
+           <option value="january">January</option> 
+           <option value="february">February</option>
+           <option value="march">March</option>
+           <option value="april">April</option> 
+           <option value="may">May</option>
+           <option value="june">June</option>
+           <option value="july">July</option> 
+           <option value="august">August</option>
+           <option value="september">September</option>
+           <option value="october">October</option> 
+           <option value="november">November</option>
+           <option value="december">December</option>
+        </select>
+        <select name="Day">
+            <option value="day">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+        <select name="Year">
+            <option value="Year">Year</option>
+            <option value="1990">1990</option>
+            <option value="1991">1991</option>
+        </select>
+        <br>
+        I agree to the terms and conditions <input type="checkbox" name="checkbox" value="" unchecked> <br>
+        <input type="submit" value="Submit">
+        
+    </form>
+</body>
+</html>
